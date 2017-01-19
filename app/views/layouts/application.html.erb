@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Picmean</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <section>
+    <%= render partial: 'header_footer/header'%>
+  </section>
+  <body class="site_color">
+    <div class="container ">
+      <%= yield %>
+    </div>
+  </body>
+  <section>
+  <hr>
+    <%= render partial: 'header_footer/footer'%>
+  </section>
+</html>
