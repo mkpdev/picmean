@@ -8,9 +8,9 @@ Devise.setup do |config|
   # by default. You can change it below and use your own secret key.
   # config.secret_key = 'a43b14758772228905c9c384d67109d1b1c9943e7ecb349be5c8fcb847f9e9c5d1dd617e74b99bd14dc6d64358cf755869131d74a2579dcc6984fcde92964b25'
  config.omniauth :twitter, "UjMXXPaZxzarwLxJOstqn749R", "mrGodzqsf7mLDC0zLRWjd3BdiCfyQuM6vARVhegYs7a1UK2woU"
- config.omniauth :facebook, "961259417342764", "052be77852eac3180c265d85dfe1ffca"
+ config.omniauth :facebook, "722826731202029", "e1b5b600de29a73922a1e3af6338e133"
  config.omniauth :google_oauth2, "131106810137-36kr5a1dntcb5tq43h701p9hrb0ocoa5.apps.googleusercontent.com", "lNfzVgFuJ-pLoT5pCNIT9lqy"
- config.omniauth :yahoo_oauth2, "dj0yJmk9OFdQQUJGUVQ5U2tqJmQ9WVdrOVpFZGhWMlF4TkdNbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jZA--","30735cdd5c8c68b66586b6028e9c549913b8d6ed"
+ config.omniauth :yahoo_oauth2, "dj0yJmk9ZFFUSm9ndUtkd2ptJmQ9WVdrOVZqVlZkWEJFTXpZbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1kZg--","1444d4517e2e1ec745e122dda874511ae2ee94e3"
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
