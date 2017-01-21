@@ -1,0 +1,6 @@
+
+<% @results.items.each do |item| %>
+   <%= item.htmlTitle.html_safe%>
+   <%= item.link.to_s.html_safe%>
+   </br>
+<%end%>
