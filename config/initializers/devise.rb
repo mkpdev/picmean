@@ -10,7 +10,7 @@ Devise.setup do |config|
  config.omniauth :twitter, "UjMXXPaZxzarwLxJOstqn749R", "mrGodzqsf7mLDC0zLRWjd3BdiCfyQuM6vARVhegYs7a1UK2woU"
  config.omniauth :facebook, "722826731202029", "e1b5b600de29a73922a1e3af6338e133"
  config.omniauth :google_oauth2, "131106810137-36kr5a1dntcb5tq43h701p9hrb0ocoa5.apps.googleusercontent.com", "lNfzVgFuJ-pLoT5pCNIT9lqy"
- config.omniauth :yahoo_oauth2, "dj0yJmk9SkdHNkZDQTVwd1JoJmQ9WVdrOWVtWkRZVU5yTm0wbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1lZQ--","dbf6d0df8c3eb8bd69921d4631bb31e64e9f0379"
+ config.omniauth :yahoo_oauth2, "dj0yJmk9WEl3Rk1hWkZTbWV5JmQ9WVdrOVZtMDRPV2N4TjJNbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD00Mg--","3c8358e9b4988aec88f9aaa0cca9983d924fd09e"
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
