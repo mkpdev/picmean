@@ -7984,3 +7984,2605 @@ Processing by HomeController#tutorial as HTML
 Completed 200 OK in 2690ms (Views: 39.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 11:23:50 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#tutorial as HTML
+Started GET "/" for 127.0.0.1 at 2017-01-23 11:24:03 +0530
+Started GET "/" for 127.0.0.1 at 2017-01-23 11:24:03 +0530
+  Rendering home/tutorial.html.erb within layouts/application
+Processing by HomeController#index as HTML
+Processing by HomeController#index as HTML
+  Rendered home/tutorial.html.erb within layouts/application (1.5ms)
+  Rendering home/index.html.erb within layouts/application
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_header.html.erb (0.0ms)
+  Rendered header_footer/_footer.html.erb (0.4ms)
+  Rendered header_footer/_header.html.erb (0.1ms)
+  Rendered header_footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 427ms (Views: 426.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 427ms (Views: 426.0ms | ActiveRecord: 0.0ms)
+
+
+  Rendered header_footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 13346ms (Views: 451.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-23 11:24:07 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.4ms)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-23 11:24:30 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered header_footer/_header.html.erb (0.5ms)
+  Rendered header_footer/_footer.html.erb (0.6ms)
+Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-23 11:24:32 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 47ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-23 11:25:00 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-23 11:37:33 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 11:37:40 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (0.5ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 1490ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 11:38:40 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (0.4ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 1638ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 11:42:02 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (121.1ms)
+Completed 500 Internal Server Error in 1706ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `search_path' for #<#<Class:0x007fe5e0a138f8>:0x007fe5d81a21b8>
+Did you mean?  search_field_tag):
+    12:   </div>
+    13:   <div class='container'>
+    14:     <div class='text-center search-bar'>
+    15:       <%= form_tag search_path, method: :get  do %>
+    16:         <div class="inner-addon right-addon">
+    17:           <i class="glyphicon glyphicon-search"></i>
+    18:           <%= text_field_tag :q, params[:q], class: 'form-control' %>
+  
+app/views/home/tutorial.html.erb:15:in `_app_views_home_tutorial_html_erb__436151274095589003_70312574916040'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.3ms)
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 11:42:23 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (104.3ms)
+Completed 500 Internal Server Error in 1860ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `search_path' for #<#<Class:0x007fe5e0a138f8>:0x007fe5e26235e8>
+Did you mean?  search_field_tag):
+    42:         <% end %>
+    43:         <% @results.pages.times do |i| %>
+    44:           <%= link_to i + 1,
+    45:             search_path(q: params[:q], page: i+1),
+    46:             class: 'btn btn-page' %>
+    47:         <% end %>
+    48:         <% if @results.next_page %>
+  
+app/views/home/tutorial.html.erb:45:in `block in _app_views_home_tutorial_html_erb__436151274095589003_70312661144560'
+app/views/home/tutorial.html.erb:43:in `times'
+app/views/home/tutorial.html.erb:43:in `_app_views_home_tutorial_html_erb__436151274095589003_70312661144560'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.5ms)
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 11:42:44 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 1502ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/rails/Projects/picmean/app/views/home/tutorial.html.erb:39: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/rails/Projects/picmean/app/views/home/tutorial.html.erb:41: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/home/tutorial.html.erb:39: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/home/tutorial.html.erb:41: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.7ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.9ms)
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 11:43:12 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.2ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1445ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 11:43:55 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.0ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1276ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 11:44:24 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (0.9ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1470ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 11:45:21 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.5ms)
+  Rendered header_footer/_header.html.erb (0.7ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 1405ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 11:45:28 +0530
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (0.4ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 11:45:29 +0530
+Processing by HomeController#tutorial as HTML
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 11:45:30 +0530
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (0.4ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 51ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.9ms)
+  Rendered header_footer/_header.html.erb (0.0ms)
+  Rendered header_footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 1248ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2017-01-23 11:45:31 +0530
+Processing by HomeController#about_us as HTML
+  Rendering static_pages/about_us.html.erb within layouts/application
+  Rendered static_pages/about_us.html.erb within layouts/application (0.4ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 36ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 11:45:35 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.0ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1340ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 11:46:36 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (692066.3ms)
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 11:58:09 +0530
+Processing by HomeController#tutorial as HTML
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 693599ms (Views: 692116.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (7507.7ms)
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 11:58:18 +0530
+Processing by HomeController#tutorial as HTML
+  Rendered header_footer/_header.html.erb (0.4ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 8826ms (Views: 7547.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendering home/tutorial.html.erb within layouts/application
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 11:59:02 +0530
+  Rendered home/tutorial.html.erb within layouts/application (65856.7ms)
+Processing by HomeController#tutorial as HTML
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 11:59:25 +0530
+Processing by HomeController#tutorial as HTML
+  Rendered header_footer/_header.html.erb (0.6ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 67417ms (Views: 65908.2ms | ActiveRecord: 0.0ms)
+
+
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (7.6ms)
+  Rendered home/tutorial.html.erb within layouts/application (0.6ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1403ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered header_footer/_header.html.erb (0.0ms)
+  Rendered header_footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 1488ms (Views: 119.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:00:38 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (346080.0ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.4ms)
+Completed 200 OK in 347414ms (Views: 346110.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:06:28 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.8ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1233ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:08:15 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (47337.1ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 48574ms (Views: 47364.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:11:14 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.3ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 1203ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:12:38 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.0ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1231ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:12:42 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.6ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1291ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:12:52 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.0ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1665ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:15:39 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.3ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1084ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:16:07 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (0.9ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1066ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:18:17 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (0.8ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 1713ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:19:10 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.5ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 2662ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:19:44 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.0ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1160ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:20:01 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.4ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 1832ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:20:22 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.0ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (5.6ms)
+Completed 200 OK in 1370ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:21:12 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (0.9ms)
+  Rendered header_footer/_header.html.erb (0.6ms)
+  Rendered header_footer/_footer.html.erb (0.5ms)
+Completed 200 OK in 1606ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:21:21 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.4ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1474ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:21:54 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (0.9ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1536ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:22:14 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.1ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1250ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:22:32 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (650154.7ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 651322ms (Views: 650188.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:33:26 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (124.4ms)
+Completed 500 Internal Server Error in 1180ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `pagemap' for #<#<Class:0x007fe5e0a138f8>:0x007fe5d42e7770>):
+     8:       <% @results.items.each do |item| %>
+     9:         <div class='row'>
+    10:          <%if item.displayLink.eql?("www.youtube.com")%> 
+    11:         <iframe width="640" height="360" src=<% pagemap.videoobject[0]["embedurl"]%> frameborder="0" allowfullscreen></iframe>
+    12:         <%end%>
+    13:        
+    14:           <h4><%= link_to item.htmlTitle.html_safe, item.link %></h4>
+  
+app/views/home/tutorial.html.erb:11:in `block in _app_views_home_tutorial_html_erb__436151274095589003_70312741912800'
+app/views/home/tutorial.html.erb:8:in `each'
+app/views/home/tutorial.html.erb:8:in `_app_views_home_tutorial_html_erb__436151274095589003_70312741912800'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.4ms)
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:33:41 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.0ms)
+  Rendered header_footer/_header.html.erb (0.7ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1029ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/frameborder=%220%22" for 127.0.0.1 at 2017-01-23 12:33:43 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/frameborder=%220%22"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered collection of /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [27 times] (7.8ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.5ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.3ms)
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:34:12 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (0.9ms)
+  Rendered header_footer/_header.html.erb (0.6ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1178ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:34:36 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.1ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 1011ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:37:47 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.3ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 1680ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:37:54 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.2ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 1187ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:38:07 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (0.9ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1067ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:38:20 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.1ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.4ms)
+Completed 200 OK in 1165ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:38:32 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.4ms)
+  Rendered header_footer/_header.html.erb (0.5ms)
+  Rendered header_footer/_footer.html.erb (0.4ms)
+Completed 200 OK in 8172ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:44:24 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.5ms)
+  Rendered header_footer/_header.html.erb (0.6ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1193ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-01-23 12:50:00 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered collection of /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [28 times] (4.6ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.6ms)
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:51:24 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.1ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1442ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=test" for 127.0.0.1 at 2017-01-23 12:51:43 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered collection of /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [28 times] (6.9ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.4ms)
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:51:58 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.5ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1544ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-01-23 12:52:02 +0530
+Processing by HomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"r99WZTj2fMcl+yhNetxMGKcUBdbgPLgaKEbN1eexJqyiKPb5vbpfDUFDAFf+B08KUHiq88BJ1fNVO8W3fpPfww==", "q"=>"test"}
+  Rendering home/search.html.erb within layouts/application
+  Rendered home/search.html.erb within layouts/application (0.7ms)
+  Rendered header_footer/_header.html.erb (0.6ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 7298ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-01-23 12:54:43 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered collection of /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [27 times] (4.5ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.3ms)
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:54:47 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.1ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?utf8=%E2%9C%93&q=test" for 127.0.0.1 at 2017-01-23 12:54:53 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"test"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (56.1ms)
+Completed 500 Internal Server Error in 1339ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `search_path' for #<#<Class:0x007fe5d82a3fa8>:0x007fe5f4033978>
+Did you mean?  search_field_tag):
+    52:         <% end %>
+    53:         <% @results.pages.times do |i| %>
+    54:           <%= link_to i + 1,
+    55:             search_path(q: params[:q], page: i+1),
+    56:             class: 'btn btn-page' %>
+    57:         <% end %>
+    58:         <% if @results.next_page %>
+  
+app/views/home/tutorial.html.erb:55:in `block in _app_views_home_tutorial_html_erb__436151274095589003_70312613495260'
+app/views/home/tutorial.html.erb:53:in `times'
+app/views/home/tutorial.html.erb:53:in `_app_views_home_tutorial_html_erb__436151274095589003_70312613495260'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.1ms)
+Started GET "/tutorial?utf8=%E2%9C%93&q=test" for 127.0.0.1 at 2017-01-23 12:55:19 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"test"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (68.1ms)
+Completed 500 Internal Server Error in 1161ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `search_path' for #<#<Class:0x007fe5d82a3fa8>:0x007fe5d00aac90>
+Did you mean?  search_field_tag):
+    57:         <% end %>
+    58:         <% if @results.next_page %>
+    59:           <%= link_to 'Next >>',
+    60:             search_path(q: params[:q],
+    61:                         page: @results.next_page),
+    62:             class: 'btn' %>
+    63:         <% end %>
+  
+app/views/home/tutorial.html.erb:60:in `_app_views_home_tutorial_html_erb__436151274095589003_70312507300700'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.4ms)
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:55:28 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.9ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 38ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?utf8=%E2%9C%93&q=image" for 127.0.0.1 at 2017-01-23 12:55:32 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"image"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (59.9ms)
+Completed 500 Internal Server Error in 1269ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `search_path' for #<#<Class:0x007fe5d82a3fa8>:0x007fe5dcab6a70>
+Did you mean?  search_field_tag):
+    57:         <% end %>
+    58:         <% if @results.next_page %>
+    59:           <%= link_to 'Next >>',
+    60:             search_path(q: params[:q],
+    61:                         page: @results.next_page),
+    62:             class: 'btn' %>
+    63:         <% end %>
+  
+app/views/home/tutorial.html.erb:60:in `_app_views_home_tutorial_html_erb__436151274095589003_70312613231240'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.0ms)
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:55:49 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.7ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:55:50 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.6ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?utf8=%E2%9C%93&q=hello" for 127.0.0.1 at 2017-01-23 12:55:57 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"hello"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.5ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 1267ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=2&q=hello" for 127.0.0.1 at 2017-01-23 12:56:05 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"2", "q"=>"hello"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (63.9ms)
+Completed 500 Internal Server Error in 1104ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `search_path' for #<#<Class:0x007fe5d82a3fa8>:0x007fe5d088be00>
+Did you mean?  search_field_tag):
+    47:       <div class='row text-center'>
+    48:         <% if @results.previous_page %>
+    49:           <%= link_to '<< Previous',
+    50:             search_path(q: params[:q], page: @results.previous_page),
+    51:             class: 'btn' %>
+    52:         <% end %>
+    53:         <% @results.pages.times do |i| %>
+  
+app/views/home/tutorial.html.erb:50:in `_app_views_home_tutorial_html_erb__436151274095589003_70312512234980'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.5ms)
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 12:56:25 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.0ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 39ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?utf8=%E2%9C%93&q=Portrait+Photography" for 127.0.0.1 at 2017-01-23 12:56:48 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"Portrait Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.1ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1206ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=2&q=Portrait+Photography" for 127.0.0.1 at 2017-01-23 12:56:59 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"2", "q"=>"Portrait Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.9ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 2294ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=3&q=Portrait+Photography" for 127.0.0.1 at 2017-01-23 12:57:07 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"3", "q"=>"Portrait Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (3.7ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1107ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=4&q=Portrait+Photography" for 127.0.0.1 at 2017-01-23 12:57:14 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"4", "q"=>"Portrait Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.8ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1125ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=5&q=Portrait+Photography" for 127.0.0.1 at 2017-01-23 12:57:19 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"5", "q"=>"Portrait Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.7ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1093ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=7&q=Portrait+Photography" for 127.0.0.1 at 2017-01-23 12:57:24 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"7", "q"=>"Portrait Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (3.1ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1284ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=7&q=Portrait+Photography" for 127.0.0.1 at 2017-01-23 12:57:29 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"7", "q"=>"Portrait Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.5ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1072ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=3&q=Portrait+Photography" for 127.0.0.1 at 2017-01-23 12:58:18 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"3", "q"=>"Portrait Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.9ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 1351ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=1&q=Portrait+Photography" for 127.0.0.1 at 2017-01-23 12:58:22 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"1", "q"=>"Portrait Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (3.1ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 1273ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?utf8=%E2%9C%93&q=Landscape+Photography" for 127.0.0.1 at 2017-01-23 12:58:55 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"Landscape Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.2ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1299ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=2&q=Landscape+Photography" for 127.0.0.1 at 2017-01-23 12:59:02 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"2", "q"=>"Landscape Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (4.1ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.5ms)
+Completed 200 OK in 1198ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/frameborder=%220%22" for 127.0.0.1 at 2017-01-23 12:59:03 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/frameborder=%220%22"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered collection of /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [27 times] (5.0ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.6ms)
+Started GET "/tutorial?page=3&q=Landscape+Photography" for 127.0.0.1 at 2017-01-23 12:59:29 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"3", "q"=>"Landscape Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.0ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 1157ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=5&q=Landscape+Photography" for 127.0.0.1 at 2017-01-23 12:59:34 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"5", "q"=>"Landscape Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.2ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 1399ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=6&q=Landscape+Photography" for 127.0.0.1 at 2017-01-23 12:59:39 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"6", "q"=>"Landscape Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (3.3ms)
+  Rendered header_footer/_header.html.erb (0.5ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 1327ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=1&q=Landscape+Photography" for 127.0.0.1 at 2017-01-23 12:59:44 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"1", "q"=>"Landscape Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (3.0ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.4ms)
+Completed 200 OK in 1088ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=2&q=Landscape+Photography" for 127.0.0.1 at 2017-01-23 12:59:49 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"2", "q"=>"Landscape Photography"}
+Started GET "/frameborder=%220%22" for 127.0.0.1 at 2017-01-23 12:59:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/frameborder=%220%22"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered collection of /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [27 times] (6.4ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.5ms)
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (3.8ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1143ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/frameborder=%220%22" for 127.0.0.1 at 2017-01-23 12:59:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/frameborder=%220%22"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered collection of /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [27 times] (4.5ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.1ms)
+Started GET "/tutorial?page=2&q=Landscape+Photography" for 127.0.0.1 at 2017-01-23 13:02:35 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"2", "q"=>"Landscape Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.4ms)
+  Rendered header_footer/_header.html.erb (0.4ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1114ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/frameborder=%220%22" for 127.0.0.1 at 2017-01-23 13:02:37 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/frameborder=%220%22"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered collection of /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [27 times] (10.4ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.3ms)
+Started GET "/tutorial?page=2&q=Landscape+Photography" for 127.0.0.1 at 2017-01-23 13:03:14 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"2", "q"=>"Landscape Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (339843.0ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 340926ms (Views: 339898.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/frameborder=%220%22" for 127.0.0.1 at 2017-01-23 13:08:55 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/frameborder=%220%22"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [27 times] (5.7ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.4ms)
+Started GET "/tutorial?page=2&q=Landscape+Photography" for 127.0.0.1 at 2017-01-23 13:09:06 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"2", "q"=>"Landscape Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.2ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.4ms)
+Completed 200 OK in 1456ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 13:17:41 +0530
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 13:17:41 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (43.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (43.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#tutorial as HTML
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (159.6ms)
+  Rendered home/tutorial.html.erb within layouts/application (169.3ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_header.html.erb (0.0ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.0ms)
+Completed 200 OK in 3043ms (Views: 3004.9ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3040ms (Views: 3004.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 13:17:57 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.0ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 148ms (Views: 147.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?utf8=%E2%9C%93&q=Portrait+Photography" for 127.0.0.1 at 2017-01-23 13:18:15 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"Portrait Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (3.1ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1562ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=2&q=Portrait+Photography" for 127.0.0.1 at 2017-01-23 13:18:23 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"2", "q"=>"Portrait Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (8.5ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1195ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=1&q=Portrait+Photography" for 127.0.0.1 at 2017-01-23 13:18:31 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"1", "q"=>"Portrait Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (4.5ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 1261ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?utf8=%E2%9C%93&q=hello+india" for 127.0.0.1 at 2017-01-23 13:18:40 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"hello india"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.1ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1208ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=2&q=hello+india" for 127.0.0.1 at 2017-01-23 13:19:13 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"2", "q"=>"hello india"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.2ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1272ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=3&q=hello+india" for 127.0.0.1 at 2017-01-23 13:19:19 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"3", "q"=>"hello india"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.1ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1193ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=4&q=hello+india" for 127.0.0.1 at 2017-01-23 13:19:25 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"4", "q"=>"hello india"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (3.5ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 1220ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=5&q=hello+india" for 127.0.0.1 at 2017-01-23 13:19:30 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"5", "q"=>"hello india"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.2ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1103ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=6&q=hello+india" for 127.0.0.1 at 2017-01-23 13:19:35 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"6", "q"=>"hello india"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (3.0ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1488ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?utf8=%E2%9C%93&q=Portrait+Photography" for 127.0.0.1 at 2017-01-23 13:20:34 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"Portrait Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.2ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1412ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?utf8=%E2%9C%93&q=Landscape+Photography" for 127.0.0.1 at 2017-01-23 13:20:57 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"Landscape Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.0ms)
+  Rendered header_footer/_header.html.erb (0.4ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1744ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?utf8=%E2%9C%93&q=Nature+Photography+" for 127.0.0.1 at 2017-01-23 13:21:18 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"Nature Photography "}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.0ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1327ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?utf8=%E2%9C%93&q=Night+Photography" for 127.0.0.1 at 2017-01-23 13:21:39 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"Night Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (2.0ms)
+  Rendered header_footer/_header.html.erb (0.4ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 1338ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial?page=2&q=Night+Photography" for 127.0.0.1 at 2017-01-23 13:21:46 +0530
+Processing by HomeController#tutorial as HTML
+  Parameters: {"page"=>"2", "q"=>"Night Photography"}
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (3.0ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 2157ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 13:22:37 +0530
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (0.3ms)
+  Rendered header_footer/_header.html.erb (0.4ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 28ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 13:22:38 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.4ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 13:22:39 +0530
+Processing by HomeController#tutorial as HTML
+  Rendering home/tutorial.html.erb within layouts/application
+  Rendered home/tutorial.html.erb within layouts/application (1.9ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 41ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2017-01-23 13:22:40 +0530
+Processing by HomeController#about_us as HTML
+  Rendering static_pages/about_us.html.erb within layouts/application
+  Rendered static_pages/about_us.html.erb within layouts/application (0.5ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 14:23:59 +0530
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (0.3ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 14:36:11 +0530
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (0.8ms)
+  Rendered header_footer/_header.html.erb (0.5ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 14:38:57 +0530
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (0.6ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/send_contact_us_mail" for 127.0.0.1 at 2017-01-23 14:39:07 +0530
+Processing by HomeController#send_contact_us_mail as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p6T2nlCOaqRZzaXs4gdtkJLezZZ2Net0s32A7BEn4Z6qU1YC1cJJbj11jfZm3G6CZbJis1ZAhp3OAIiOiAUY8Q==", "name"=>"test", "surname"=>"tests", "email"=>"sahemed@strivepool.com", "message"=>"dsfasdfads"}
+No template found for HomeController#send_contact_us_mail, rendering head :no_content
+Completed 204 No Content in 481ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 14:40:41 +0530
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (0.6ms)
+  Rendered header_footer/_header.html.erb (0.5ms)
+  Rendered header_footer/_footer.html.erb (0.4ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/send_contact_us_mail" for 127.0.0.1 at 2017-01-23 14:40:49 +0530
+Processing by HomeController#send_contact_us_mail as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rNl0HzgV9TOtL9zvv9JtWqFCAm9k09+9hb46yP6a0e2hLtSDvVnW+cmX9PU7CW5IVi6tSkSmslT4wzKqZ7gogg==", "name"=>"tessss", "surname"=>"sssssssssss", "email"=>"sahemed@strivepool.com", "message"=>"sdffffffff"}
+  Rendering contact_mailer/contact_us.html.erb within layouts/mailer
+  Rendered contact_mailer/contact_us.html.erb within layouts/mailer (0.6ms)
+ContactMailer#contact_us: processed outbound mail in 22367.4ms
+Completed 500 Internal Server Error in 22379ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `delivery_now' for #<ActionMailer::MessageDelivery:0x007efc64946990>
+Did you mean?  deliver_now
+               deliver_now!):
+  
+app/controllers/home_controller.rb:14:in `send_contact_us_mail'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.9ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.1ms)
+Started GET "/send_contact_us_mail" for 127.0.0.1 at 2017-01-23 14:41:45 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [GET] "/send_contact_us_mail"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [28 times] (43.9ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (62.6ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.3ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (144.0ms)
+Started POST "/send_contact_us_mail" for 127.0.0.1 at 2017-01-23 14:41:51 +0530
+Processing by HomeController#send_contact_us_mail as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rNl0HzgV9TOtL9zvv9JtWqFCAm9k09+9hb46yP6a0e2hLtSDvVnW+cmX9PU7CW5IVi6tSkSmslT4wzKqZ7gogg==", "name"=>"tessss", "surname"=>"sssssssssss", "email"=>"sahemed@strivepool.com", "message"=>"sdffffffff"}
+  Rendering contact_mailer/contact_us.html.erb within layouts/mailer
+  Rendered contact_mailer/contact_us.html.erb within layouts/mailer (0.4ms)
+ContactMailer#contact_us: processed outbound mail in 107.4ms
+Sent mail to sahemed@strivepool.com (23.3ms)
+Date: Mon, 23 Jan 2017 14:41:52 +0530
+From: notifications@example.com
+To: sahemed@strivepool.com
+Message-ID: <5885c8d82890a_3992103513c83c@rails-All-Series.mail>
+Subject: Contact us
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your username is: .<br>
+    </p>
+    <p>
+      To login to the site, just follow this link:.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+No template found for HomeController#send_contact_us_mail, rendering head :no_content
+Completed 204 No Content in 400ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 14:43:04 +0530
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (0.9ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 172ms (Views: 171.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/send_contact_us_mail" for 127.0.0.1 at 2017-01-23 14:43:18 +0530
+Processing by HomeController#send_contact_us_mail as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VOrRaZmafDBIDkF8zuI5Q56mMVVl+wyZ5OC813SkkM9ZHXH1HNZf+iy2aWZKOTpRacqecEWOYXCZnbS17YZpoA==", "name"=>"sdfsf", "surname"=>"sdfdsa", "email"=>"adminshi@yopmail.com", "message"=>"sdfsad"}
+  Rendering contact_mailer/contact_us.html.erb within layouts/mailer
+  Rendered contact_mailer/contact_us.html.erb within layouts/mailer (0.4ms)
+ContactMailer#contact_us: processed outbound mail in 5.2ms
+Sent mail to adminshi@yopmail.com (2.2ms)
+Date: Mon, 23 Jan 2017 14:43:18 +0530
+From: notifications@example.com
+To: adminshi@yopmail.com
+Message-ID: <5885c92ecbc6_399210354708451@rails-All-Series.mail>
+Subject: Contact us
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your username is: .<br>
+    </p>
+    <p>
+      To login to the site, just follow this link:.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+No template found for HomeController#send_contact_us_mail, rendering head :no_content
+Completed 204 No Content in 43ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 14:47:10 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (4.5ms)
+  Rendered header_footer/_header.html.erb (0.4ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 291ms (Views: 283.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/send_contact_us_mail" for 127.0.0.1 at 2017-01-23 14:47:17 +0530
+Processing by HomeController#send_contact_us_mail as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DKmeECFdD64d0rbAXrucFBNMP6pGRZIuRWDIKPsy5ZYBXj6MpBEsZHlqntraYJ8G5CCQj2Yw/8c4HcBKYhAc+Q==", "name"=>"test_123456 test", "surname"=>"test", "email"=>"adminshi@yopmail.com", "message"=>"sdfdasf"}
+  Rendering contact_mailer/contact_us.html.erb within layouts/mailer
+  Rendered contact_mailer/contact_us.html.erb within layouts/mailer (1.5ms)
+ContactMailer#contact_us: processed outbound mail in 98.9ms
+Sent mail to adminshi@yopmail.com (1988.8ms)
+Date: Mon, 23 Jan 2017 14:47:17 +0530
+From: notifications@example.com
+To: adminshi@yopmail.com
+Message-ID: <5885ca1db44c4_3d2516f6ea8738c5@rails-All-Series.mail>
+Subject: Contact us
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your username is: .<br>
+    </p>
+    <p>
+      To login to the site, just follow this link:.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+No template found for HomeController#send_contact_us_mail, rendering head :no_content
+Completed 204 No Content in 2338ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/send_contact_us_mail" for 127.0.0.1 at 2017-01-23 14:48:05 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#send_contact_us_mail as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DKmeECFdD64d0rbAXrucFBNMP6pGRZIuRWDIKPsy5ZYBXj6MpBEsZHlqntraYJ8G5CCQj2Yw/8c4HcBKYhAc+Q==", "name"=>"test_123456 test", "surname"=>"test", "email"=>"adminshi@yopmail.com", "message"=>"sdfdasf"}
+  Rendering contact_mailer/contact_us.html.erb within layouts/mailer
+  Rendered contact_mailer/contact_us.html.erb within layouts/mailer (0.7ms)
+ContactMailer#contact_us: processed outbound mail in 104.6ms
+Sent mail to adminshi@yopmail.com (2055.1ms)
+Date: Mon, 23 Jan 2017 14:48:05 +0530
+From: notifications@example.com
+To: adminshi@yopmail.com
+Message-ID: <5885ca4db0146_3d69d7d2c897746@rails-All-Series.mail>
+Subject: Contact us
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your username is: .<br>
+    </p>
+    <p>
+      To login to the site, just follow this link:.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+Completed 500 Internal Server Error in 2405ms (ActiveRecord: 0.0ms)
+
+
+  
+Net::SMTPAuthenticationError (534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbs5
+):
+  
+app/controllers/home_controller.rb:14:in `send_contact_us_mail'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.9ms)
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 14:49:34 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (7.1ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 201ms (Views: 190.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/send_contact_us_mail" for 127.0.0.1 at 2017-01-23 14:49:40 +0530
+Processing by HomeController#send_contact_us_mail as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z16shyd6Hi/yxTHUzU4zUIU12/YWgWOOakIuwEZaYolqqQwbojY95ZZ9Gc5JlTBCcll00zb0DmcXPyai33ib5g==", "name"=>"dsf sdf", "surname"=>"sdf", "email"=>"sahemed@strivepool.com", "message"=>"sdfsadf"}
+  Rendering contact_mailer/contact_us.html.erb within layouts/mailer
+  Rendered contact_mailer/contact_us.html.erb within layouts/mailer (0.4ms)
+ContactMailer#contact_us: processed outbound mail in 113.5ms
+Sent mail to adminshi@yopmail.com (1911.5ms)
+Date: Mon, 23 Jan 2017 14:49:40 +0530
+From: notifications@example.com
+To: adminshi@yopmail.com
+Message-ID: <5885caac8b9ff_3e4221b90fc5674c@rails-All-Series.mail>
+Subject: Contact us
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your username is: .<br>
+    </p>
+    <p>
+      To login to the site, just follow this link:.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+Completed 500 Internal Server Error in 2311ms (ActiveRecord: 0.0ms)
+
+
+  
+Net::SMTPAuthenticationError (534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbsj
+):
+  
+app/controllers/home_controller.rb:14:in `send_contact_us_mail'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.7ms)
+Started GET "/send_contact_us_mail" for 127.0.0.1 at 2017-01-23 14:51:08 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [GET] "/send_contact_us_mail"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [28 times] (7.0ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.3ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.0ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.1ms)
+Started POST "/send_contact_us_mail" for 127.0.0.1 at 2017-01-23 14:51:12 +0530
+Processing by HomeController#send_contact_us_mail as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z16shyd6Hi/yxTHUzU4zUIU12/YWgWOOakIuwEZaYolqqQwbojY95ZZ9Gc5JlTBCcll00zb0DmcXPyai33ib5g==", "name"=>"dsf sdf", "surname"=>"sdf", "email"=>"sahemed@strivepool.com", "message"=>"sdfsadf"}
+  Rendering contact_mailer/contact_us.html.erb within layouts/mailer
+  Rendered contact_mailer/contact_us.html.erb within layouts/mailer (0.3ms)
+ContactMailer#contact_us: processed outbound mail in 103.7ms
+Sent mail to adminshi@yopmail.com (4061.5ms)
+Date: Mon, 23 Jan 2017 14:51:13 +0530
+From: notifications@example.com
+To: adminshi@yopmail.com
+Message-ID: <5885cb093f43a_3feccdb2d49924a@rails-All-Series.mail>
+Subject: Contact us
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your username is: .<br>
+    </p>
+    <p>
+      To login to the site, just follow this link:.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+No template found for HomeController#send_contact_us_mail, rendering head :no_content
+Completed 204 No Content in 4432ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 14:55:51 +0530
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (1.4ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 193ms (Views: 192.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 15:10:08 +0530
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (1.3ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/send_contact_us_mail" for 127.0.0.1 at 2017-01-23 15:10:36 +0530
+Processing by HomeController#send_contact_us_mail as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IZtm9Zdojye0d4WdMu5qEvNQw3FD25Y4EBhgXYvMYEIsbMZpEiSs7dDPrYe2NWkABDxsVGOu+9FtZWg/Eu6ZLQ==", "name"=>"sdafds", "surname"=>"test", "email"=>"sahemed@strivepool.com", "message"=>"sdafdsfdsa"}
+  Rendering contact_mailer/contact_us.html.erb within layouts/mailer
+  Rendered contact_mailer/contact_us.html.erb within layouts/mailer (0.4ms)
+ContactMailer#contact_us: processed outbound mail in 6.3ms
+Sent mail to adminshi@yopmail.com (4809.3ms)
+Date: Mon, 23 Jan 2017 15:10:58 +0530
+From: notifications@example.com
+To: adminshi@yopmail.com
+Message-ID: <5885cfaae2d91_3feccdb2d49938e@rails-All-Series.mail>
+Subject: Contact us
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your username is: .<br>
+    </p>
+    <p>
+      To login to the site, just follow this link:.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 27129ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-23 15:11:03 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 15:11:29 +0530
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (1.2ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/send_contact_us_mail" for 127.0.0.1 at 2017-01-23 15:11:41 +0530
+Processing by HomeController#send_contact_us_mail as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z3TMDh6w+B4DTdGQVhVOm878XvwqvxNulsbtHUOuOBee29/mHtIQhJAMhjm9fyCjc0N6IK3AJTGWsg5q2KOHtw==", "name"=>"dsf sdf", "subject"=>"test", "email"=>"test@gmail.com", "message"=>"sdfasd"}
+  Rendering contact_mailer/contact_us.html.erb within layouts/mailer
+  Rendered contact_mailer/contact_us.html.erb within layouts/mailer (0.5ms)
+ContactMailer#contact_us: processed outbound mail in 8.1ms
+Sent mail to adminshi@yopmail.com (4516.2ms)
+Date: Mon, 23 Jan 2017 15:16:57 +0530
+From: notifications@example.com
+To: adminshi@yopmail.com
+Message-ID: <5885d111c9dca_3feccdb1949947f@rails-All-Series.mail>
+Subject: test
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+    <h1>Hi Contactus@picmean.net</h1>
+    <p>
+      Here is the information submited by the user.<br>
+      <p>Name: dsf sdf</p></br>
+      <p>Email: </p></br>
+      <p>Message: </p></br>
+    </p>
+    <p>Thanks</p>
+
+  </body>
+</html>
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 320958ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-23 15:17:02 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 15:17:54 +0530
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (0.9ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/send_contact_us_mail" for 127.0.0.1 at 2017-01-23 15:18:02 +0530
+Processing by HomeController#send_contact_us_mail as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oXD4jHhOhlwrKd1WA7Yps02N0w0gMW6076dp9SxCDetY3+tkeCxuxrhoiv/o3EeL8DL30adOWOvv04qCt0+ySw==", "name"=>"test_123456 test", "subject"=>"dddd", "email"=>"adminshi@yopmail.com", "message"=>"sdfdsfdsf"}
+  Rendering contact_mailer/contact_us.html.erb within layouts/mailer
+  Rendered contact_mailer/contact_us.html.erb within layouts/mailer (0.3ms)
+ContactMailer#contact_us: processed outbound mail in 15219.1ms
+Sent mail to adminshi@yopmail.com (4151.9ms)
+Date: Mon, 23 Jan 2017 15:18:17 +0530
+From: notifications@example.com
+To: adminshi@yopmail.com
+Message-ID: <5885d161b9ec0_3feccdb234995be@rails-All-Series.mail>
+Subject: dddd
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+    <h1>Hi Contactus@picmean.net</h1>
+    <p>
+      Here is the information submited by the user.<br>
+      <p>Name: test_123456 test</p></br>
+      <p>Email: adminshi@yopmail.com</p></br>
+      <p>Message: sdfdsfdsf</p></br>
+    </p>
+    <p>Thanks</p>
+
+  </body>
+</html>
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 19377ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-23 15:18:21 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-23 15:19:15 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-23 15:39:17 +0530
+Processing by HomeController#index as HTML
+Completed 401 Unauthorized in 24ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-01-23 15:39:17 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (48.4ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 234ms (Views: 103.9ms | ActiveRecord: 121.4ms)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 15:40:02 +0530
+Processing by HomeController#contact_us as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-01-23 15:40:02 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.4ms)
+  Rendered header_footer/_header.html.erb (0.4ms)
+  Rendered header_footer/_footer.html.erb (0.4ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 15:40:04 +0530
+Processing by HomeController#tutorial as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-01-23 15:40:04 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.1ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 62ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 15:43:52 +0530
+Processing by HomeController#tutorial as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-01-23 15:43:52 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (3.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.8ms)
+  Rendered header_footer/_header.html.erb (0.4ms)
+  Rendered header_footer/_footer.html.erb (0.6ms)
+Completed 200 OK in 103ms (Views: 94.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-01-23 15:48:43 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (3.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.3ms)
+  Rendered header_footer/_header.html.erb (0.4ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 67ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-01-23 15:49:35 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.9ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 52ms (Views: 40.0ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 15:49:37 +0530
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (1.0ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 15:49:38 +0530
+Processing by HomeController#tutorial as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-01-23 15:49:38 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.0ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 15:49:39 +0530
+Processing by HomeController#tutorial as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-01-23 15:49:39 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.7ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 15:49:44 +0530
+Processing by HomeController#tutorial as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-01-23 15:49:44 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.9ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 15:49:45 +0530
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (0.9ms)
+  Rendered header_footer/_header.html.erb (0.4ms)
+  Rendered header_footer/_footer.html.erb (0.4ms)
+Completed 200 OK in 59ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2017-01-23 15:49:47 +0530
+Processing by HomeController#about_us as HTML
+  Rendering static_pages/about_us.html.erb within layouts/application
+  Rendered static_pages/about_us.html.erb within layouts/application (0.4ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 15:49:48 +0530
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (1.3ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 59ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 15:50:00 +0530
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (2.5ms)
+  Rendered header_footer/_header.html.erb (0.4ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 81ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 15:50:00 +0530
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (1.1ms)
+  Rendered header_footer/_header.html.erb (0.5ms)
+  Rendered header_footer/_footer.html.erb (0.7ms)
+Completed 200 OK in 45ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2017-01-23 15:50:02 +0530
+Processing by HomeController#contact_us as HTML
+  Rendering static_pages/contact_us.html.erb within layouts/application
+  Rendered static_pages/contact_us.html.erb within layouts/application (1.2ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 61ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 15:50:03 +0530
+Processing by HomeController#tutorial as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-01-23 15:50:03 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.9ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 46ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 15:50:07 +0530
+Processing by HomeController#tutorial as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-01-23 15:50:07 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.2ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-01-23 15:51:43 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (19.9ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 254ms (Views: 220.5ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-01-23 15:51:44 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.8ms)
+  Rendered header_footer/_header.html.erb (1.2ms)
+  Rendered header_footer/_footer.html.erb (0.4ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-01-23 15:51:45 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.4ms)
+  Rendered header_footer/_header.html.erb (0.5ms)
+  Rendered header_footer/_footer.html.erb (0.5ms)
+Completed 200 OK in 97ms (Views: 95.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-01-23 15:51:45 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.8ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 57ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-01-23 15:51:46 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.6ms)
+  Rendered header_footer/_header.html.erb (0.2ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 82ms (Views: 80.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/twitter" for 127.0.0.1 at 2017-01-23 15:51:51 +0530
+Started GET "/users/auth/twitter" for 127.0.0.1 at 2017-01-23 15:51:55 +0530
+Started GET "/users/auth/twitter/callback?oauth_token=1ujYcgAAAAAAy0ilAAABWcrYsdc&oauth_verifier=SCoXUpbJtiW9K0zEszVqVZH131WQRgxT" for 127.0.0.1 at 2017-01-23 15:52:03 +0530
+Processing by CallbacksController#twitter as HTML
+  Parameters: {"oauth_token"=>"1ujYcgAAAAAAy0ilAAABWcrYsdc", "oauth_verifier"=>"SCoXUpbJtiW9K0zEszVqVZH131WQRgxT"}
+  [1m[36mUser Load (33.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."provider" = $1 AND "users"."uid" = $2 ORDER BY "users"."id" ASC LIMIT $3[0m  [["provider", "twitter"], ["uid", "821969421929357312"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "821969421929357312@twitter.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (37.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "created_at", "updated_at", "provider", "uid") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["email", "821969421929357312@twitter.com"], ["encrypted_password", "$2a$11$RygFj3GGRJQ43YjmrFbzPuGZM1xB2UywIK.iJ2Ximm6qtiig2mIIy"], ["sign_in_count", 1], ["current_sign_in_at", 2017-01-23 10:22:06 UTC], ["last_sign_in_at", 2017-01-23 10:22:06 UTC], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_ip", "127.0.0.1"], ["created_at", 2017-01-23 10:22:06 UTC], ["updated_at", 2017-01-23 10:22:06 UTC], ["provider", "twitter"], ["uid", "821969421929357312"]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 340ms (ActiveRecord: 71.6ms)
+
+
+  
+ActiveRecord::RecordNotUnique (PG::UniqueViolation: ERROR:  duplicate key value violates unique constraint "index_users_on_email"
+DETAIL:  Key (email)=(821969421929357312@twitter.com) already exists.
+: INSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "created_at", "updated_at", "provider", "uid") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"):
+  
+app/controllers/callbacks_controller.rb:4:in `twitter'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.9ms)
+Started GET "/users/auth/twitter/callback?oauth_token=1ujYcgAAAAAAy0ilAAABWcrYsdc&oauth_verifier=SCoXUpbJtiW9K0zEszVqVZH131WQRgxT" for 127.0.0.1 at 2017-01-23 15:55:30 +0530
+Processing by CallbacksController#failure as HTML
+  Parameters: {"oauth_token"=>"1ujYcgAAAAAAy0ilAAABWcrYsdc", "oauth_verifier"=>"SCoXUpbJtiW9K0zEszVqVZH131WQRgxT"}
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-01-23 15:55:32 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.2ms)
+  Rendered header_footer/_header.html.erb (0.3ms)
+  Rendered header_footer/_footer.html.erb (0.2ms)
+Completed 200 OK in 46ms (Views: 34.5ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/users/auth/google_oauth2" for 127.0.0.1 at 2017-01-23 15:55:37 +0530
+Started GET "/users/auth/google_oauth2" for 127.0.0.1 at 2017-01-23 15:55:37 +0530
+Started GET "/users/auth/twitter" for 127.0.0.1 at 2017-01-23 15:55:41 +0530
+Started GET "/users/auth/twitter" for 127.0.0.1 at 2017-01-23 15:55:43 +0530
+Started GET "/users/auth/twitter/callback?oauth_token=SRL6rAAAAAAAy0ilAAABWcrcLgU&oauth_verifier=I2GoTL1XrGjQXwWZPotNBq0l5TFAodUh" for 127.0.0.1 at 2017-01-23 15:55:46 +0530
+Processing by CallbacksController#twitter as HTML
+  Parameters: {"oauth_token"=>"SRL6rAAAAAAAy0ilAAABWcrcLgU", "oauth_verifier"=>"I2GoTL1XrGjQXwWZPotNBq0l5TFAodUh"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."provider" = $1 AND "users"."uid" = $2 ORDER BY "users"."id" ASC LIMIT $3[0m  [["provider", "twitter"], ["uid", "821969421929357312"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "821969421929357312@twitter.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "created_at", "updated_at", "provider", "uid") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["email", "821969421929357312@twitter.com"], ["encrypted_password", "$2a$11$ZUPAFq3c9o9r/GFKUtxUsudhSSSuETN/ZCgvNm0YGhVGCNwQpL/CK"], ["sign_in_count", 1], ["current_sign_in_at", 2017-01-23 10:25:50 UTC], ["last_sign_in_at", 2017-01-23 10:25:50 UTC], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_ip", "127.0.0.1"], ["created_at", 2017-01-23 10:25:50 UTC], ["updated_at", 2017-01-23 10:25:50 UTC], ["provider", "twitter"], ["uid", "821969421929357312"]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 120ms (ActiveRecord: 1.9ms)
+
+
+  
+ActiveRecord::RecordNotUnique (PG::UniqueViolation: ERROR:  duplicate key value violates unique constraint "index_users_on_email"
+DETAIL:  Key (email)=(821969421929357312@twitter.com) already exists.
+: INSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "created_at", "updated_at", "provider", "uid") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"):
+  
+app/controllers/callbacks_controller.rb:4:in `twitter'
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/rails/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.9ms)
+Started GET "/users/auth/twitter" for 127.0.0.1 at 2017-01-23 15:56:08 +0530
+Started GET "/users/auth/twitter" for 127.0.0.1 at 2017-01-23 15:56:11 +0530
+Started GET "/users/auth/twitter/callback?oauth_token=c8nAYAAAAAAAy0ilAAABWcrcmm4&oauth_verifier=XtOBTGLmzm0xyxWsjO3d6mTwp5vdYJ3Z" for 127.0.0.1 at 2017-01-23 15:56:14 +0530
+Processing by CallbacksController#twitter as HTML
+  Parameters: {"oauth_token"=>"c8nAYAAAAAAAy0ilAAABWcrcmm4", "oauth_verifier"=>"XtOBTGLmzm0xyxWsjO3d6mTwp5vdYJ3Z"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."provider" = $1 AND "users"."uid" = $2 ORDER BY "users"."id" ASC LIMIT $3[0m  [["provider", "twitter"], ["uid", "821969421929357312"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "821969421929357312@twitter.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+Redirected to 
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "created_at", "updated_at", "provider", "uid") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["email", "821969421929357312@twitter.com"], ["encrypted_password", "$2a$11$lAFuatHjM5Y7NAHwKwOR3.4gFEdpLaHYLYjcFG/l/6fu3DAOLWZKG"], ["sign_in_count", 1], ["current_sign_in_at", 2017-01-23 10:26:52 UTC], ["last_sign_in_at", 2017-01-23 10:26:52 UTC], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_ip", "127.0.0.1"], ["created_at", 2017-01-23 10:26:52 UTC], ["updated_at", 2017-01-23 10:26:52 UTC], ["provider", "twitter"], ["uid", "821969421929357312"]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+Redirected to http://localhost:3000/tutorial
+Completed 302 Found in 81533ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/tutorial" for 127.0.0.1 at 2017-01-23 15:57:39 +0530
+Processing by HomeController#tutorial as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-01-23 15:57:39 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.8ms)
+  Rendered header_footer/_header.html.erb (0.4ms)
+  Rendered header_footer/_footer.html.erb (0.4ms)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
