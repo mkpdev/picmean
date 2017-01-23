@@ -10,7 +10,13 @@ class User < ApplicationRecord
     puts "#{auth}"
     where(provider: auth.provider, uid: auth.uid).first_or_create do |user|
       user.provider = auth.provider
-      auth.provider.eql?"twitter" ? user.email = auth.info.email : user.email = auth.email
+      if auth.provider.eql?"twitter" 
+        user.email = auth.info.email
+      elsif auth.provider.eql?"yahoo_oauth2"
+        user.email = auth+ "#{SecureRandom.hex(2)}@yahoo.com"
+      else
+        user.email = auth.email
+      end
       user.uid = auth.uid
       user.password = Devise.friendly_token[0,20]
     end
