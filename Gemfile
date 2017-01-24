@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'tinymce-rails-imageupload', github: 'PerfectlyNormal/tinymce-rails-imageupload'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'therubyracer'
@@ -39,7 +39,6 @@ gem 'omniauth-twitter'
 gem 'omniauth-facebook'
 gem "omniauth-google-oauth2"
 gem "omniauth-yahoo-oauth2"
-gem 'tinymce-rails-imageupload', '~> 4.0.0.beta'
 gem 'paperclip'
 
 group :development, :test do
