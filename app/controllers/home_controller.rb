@@ -21,6 +21,9 @@ class HomeController < ApplicationController
       page = params[:page] || 1
       @results = GoogleCustomSearchApi.search(params[:q],
                                               page: page)
+    else
+      @results = GoogleCustomSearchApi.search('Photography',
+                                              page: page)
     end
   end
 end

@@ -1,0 +1,53 @@
+<%= form_for(@blog, html: { class: "form-horizontal", role: "form" }) do |f| %>
+  <% if @blog.errors.any? %>
+    <div class="alert alert-danger alert-dismissable" role="alert">
+      <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+      <h4><%= pluralize(@blog.errors.count, "error") %> prohibited this blog from being saved:</h4>
+
+      <ul>
+      <% @blog.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= f.label :name, class: "col-sm-2 control-label" %>
+    <div class="col-sm-10">
+      <%= f.text_field :name, class: "form-control", required: true %>
+    </div>
+  </div>
+  <div class="form-group">
+    <%= f.label :title, class: "col-sm-2 control-label" %>
+    <div class="col-sm-10">
+      <%= f.text_field :title, class: "form-control", required: true %>
+    </div>
+  </div>
+  <div class="form-group">
+    <%= f.label :message, class: "col-sm-2 control-label" %>
+    <div class="col-sm-10">
+      <%= f.text_area :message, class: "form-control", id: "tinymce4", rel: "tinymce" %>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <%= f.submit class: "btn btn-primary" %>
+    </div>
+  </div>
+<% end %>
+
+<script type="text/javascript">
+$("document:ready", function() {
+  $("[rel=tinymce]").tinymce({
+    theme: "modern",
+    toolbar: "bold,italic,underline,|,bullist,numlist,outdent,indent,|,undo,redo,|,pastetext,pasteword,selectall,|,uploadimage",
+    pagebreak_separator: "<p class='page-separator'>&nbsp;</p>",
+    plugins: ["uploadimage"],
+    relative_urls: false,
+    remove_script_host: false,
+    document_base_url: (!window.location.origin ? window.location.protocol + "//" + window.location.host : window.location.origin) + "/",
+  })
+});
+</script>
